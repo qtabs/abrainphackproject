@@ -6,10 +6,10 @@ P-hacking refers to the practice of selectively reporting or analyzing data unti
 
 1. Define and formalise the P-Hacking Attempt-Insistence-Length (phail)
 2. Think of a better name/acronym (BNA) for the phail
-3. Select a set of behavioural-experiment papers in cognitive neuroscience for testing
+3. Select a set of papers using linear mixed-effects (LME) models for testing
 4. Code the analysis pipelines of the selected papers and use simulations to estimate BNA
 5. Create visualisations summarising the BNA distribution across studies (hopefully N > 20)
-6. Scale up the code to an open-source library for the general computation of BNA
+6. Scale up the code to an open-source library for the general computation of BNA on LMEs
 7. Devise a very cool name and acronym for the library
 8. Explore automation of the end-to-end paper → BNA computation pipeline
 9. Draft a short report detailing motivation, methods, findings, and next steps
@@ -31,9 +31,6 @@ P-hacking refers to the practice of selectively reporting or analyzing data unti
 ### Library development (medium/hard)
 1. Implementing the phail computation as an open-source library with clear APIs and documentation.
 2. Summarise the commonly-occurring components of the paper-specific analysis pipelines into modules
-
-### Automation and workflow integration (hard, optional)
-1. Explore interfacing with LLMs to extract analysis pipelines from the paper's pdf
 
 ### Reporting (easy)
 1. Write an introduction to the index and main idea of the project for a potential manuscript
@@ -65,7 +62,6 @@ P-hacking refers to the practice of selectively reporting or analyzing data unti
 - Implement the analysis pipelines for the rest of the studies using the library
 - Compute *phail* for all the papers in dataset
 - Produce summary plots and quick field-level patterns
-- Explore the automatic extraction of the processing pipelines from papers using LLMs
 - Write the draft of the results and discussion sections of the manuscript
 - Prepare the slides for the project presentations
 
@@ -75,7 +71,6 @@ P-hacking refers to the practice of selectively reporting or analyzing data unti
 2. Metric development: Designing and formalising quantitative indices from conceptual ideas
 3. Collecting and structuring reported methodological pipelines from published papers
 4. Python programming and library development: Writing reusable code for computations and interacting with other programming languages from Python
-5. (Potential): Programatic interactions with LMMs to automatise processing
 
 ## Contributing
 
